@@ -17,6 +17,7 @@ public class TemperatureConverter {
         Scanner input = new Scanner(System.in);
         boolean running = true;
 
+        // loop keeping the program running until the user stops the program
         while (running) {
 
             System.out.print("Enter a temperature or type stop: ");
@@ -55,8 +56,10 @@ public class TemperatureConverter {
                         }
                     }
 
+                    // converts the temperature
                     double result = convertTemperature(temperature, unit);
 
+                    // printing the resultd
                     if (unit.equalsIgnoreCase("C")) {
                         System.out.printf("%.2f C is equal to %.2f F%n", temperature, result);
                     } else {
