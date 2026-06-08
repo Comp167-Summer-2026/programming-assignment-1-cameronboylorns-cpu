@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-public class TemperatureConverterBoylorn {
+public class TemperatureConverter
+    {
 
     public static double convertTemperature(double temperature, String unit) {
 
