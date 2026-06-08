@@ -56,10 +56,10 @@ public class TemperatureConverter {
 
                         // The conversion result
                         if (unit.equalsIgnoreCase("C")) {
-                            System.out.printf("%.2f°C is equal to %.2f°F%n",
+                            System.out.printf("%.2f C is equal to %.2f F%n",
                                     temperature, answer);
                         } else {
-                            System.out.printf("%.2f°F is equal to %.2f°C%n",
+                            System.out.printf("%.2f F is equal to %.2f C%n",
                                     temperature, answer);
                         }
 
